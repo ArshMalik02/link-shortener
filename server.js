@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended:true}))
 app.use('/',express.static("Static"))
 
 app.get('/', function(req,res){
-    res.sendFile(path.join(__dirname,"/Static/html/home.html"))
+    res.sendFile(path.join(__dirname,"/Static/html/index.html"))
 }
 )
 
